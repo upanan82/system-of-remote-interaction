@@ -9,10 +9,10 @@ module.exports = {
     devtool: 'source-map',
     entry: [
         './src/index.tsx',
-        './res/scss/main.scss'
+        './resources/style/main.scss'
     ],
     output: {
-        path: path.join(__dirname, '../server/public'),
+        path: path.join(__dirname, '../server/bin/public'),
         filename: './js/index.js',
         publicPath: '/'
     },

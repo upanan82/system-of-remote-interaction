@@ -29,7 +29,7 @@ const render = (Component) => {
         </BrowserRouter>
       </Provider>
     </AppContainer>,
-    document.getElementById('reactbody') as HTMLElement,    
+    document.getElementById('reactbody') as HTMLElement,
   );
 };
 

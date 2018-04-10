@@ -8,7 +8,7 @@ module.exports = {
     context: path.join(__dirname, '../server'),
     devtool: 'source-map',
     entry: [
-        './routes/index.js'
+        './index.js'
     ],
     target: 'node',
     output: {

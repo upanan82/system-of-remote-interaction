@@ -1,0 +1,17 @@
+{
+    "session": {
+        "cookie": {
+            "domain": "",
+            "maxAge": 5400000
+        },
+        "secret": "zJsVcFy7UH8hRJ8X3UDTozpsw91KA3GQ",
+        "name": "user.sid",
+        "store": {
+            "collection": "sessions"
+        }
+    },
+    "db": {
+        "url": "mongodb://user:pass@ds231725.mlab.com:31725/sessions"
+    },
+    "port": 3000
+}
