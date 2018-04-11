@@ -35,7 +35,7 @@ app.use(session({
 app.use('/*', ssr);
 
 app.listen(config.port, () => {
-    typingConsole('Wake up, Neo...\/The Matrix has you...\/Follow the white rabbit.\/', (startTime) => {
+    typingConsole('Wake up, Neo...\/The Matrix has you...\/Follow the white rabbit.\/', startTime => {
         console.log(`(\\__/)\n   (='.'=)\n   (")_(")\n\n   \x1b[36m%s\x1b[0m`, '+ [server] Ok, ' + config.port + ' port.');
         mongoose.connect(config.db.url, err => {
             if (err) {
